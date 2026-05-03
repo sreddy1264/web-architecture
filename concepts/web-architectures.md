@@ -341,7 +341,7 @@ Built for extreme load: in-memory data grids replicate state across processing u
 
 ## Frontend Architectures
 
-(See also `web-rendering-strategies.md` for SSR/SSG/CSR specifics.)
+(See also [Web Rendering Strategies](web-rendering-strategies.md) for SSR/SSG/CSR specifics.)
 
 ### 1. Server-Rendered MPA (Classic)
 Server emits HTML per route; minimal JS sprinkled on top.

@@ -939,7 +939,7 @@ The four DORA metrics are the north stars for CI/CD effectiveness.
 | **Change failure rate** | 0–15% | 16–30% | 16–30% | 46–60% |
 
 ### Beyond DORA — adding reliability
-DORA's 5th metric (added 2021) is **reliability** — meeting SLOs. (See `observability.md` for SLOs.)
+DORA's 5th metric (added 2021) is **reliability** — meeting SLOs. (See [Observability](observability.md) for SLOs.)
 
 ### Measuring DORA
 - **GitHub data** for deploy frequency and lead time

@@ -2,7 +2,7 @@
 
 > A collection of practical guides covering modern web application development — from how the browser renders a page to how to architect, build, ship, secure, and operate the system around it.
 
-This repo contains 15 guides organized into four themes: **platform fundamentals**, **architecture**, **quality cross-cuts**, and **process and operations**. Each guide is self-contained, opinionated, and built around concrete trade-offs rather than abstract best-practices. They cross-reference each other where it helps; otherwise they stand alone.
+This repo contains 20 guides organized into six themes: **platform fundamentals**, **languages**, **architecture**, **quality cross-cuts**, **frameworks**, and **process and operations**. Each guide is self-contained, opinionated, and built around concrete trade-offs rather than abstract best-practices. They cross-reference each other where it helps; otherwise they stand alone.
 
 Every guide follows the same structure:
 
@@ -14,6 +14,8 @@ Every guide follows the same structure:
 - Curated further reading
 - A short closing reflection
 
+A cross-doc **[Glossary](concepts/glossary.md)** defines the ~280 acronyms and terms used across the guides, with back-links to where each is discussed in depth.
+
 ---
 
 ## What's in here
@@ -22,6 +24,14 @@ Every guide follows the same structure:
 The substrate every web app runs on.
 
 - **[Browser Rendering Pipeline](concepts/browser-rendering-pipeline.md)** — what happens between pressing Enter and seeing pixels: DNS, TCP, TLS, HTTP, the critical rendering path, reflow & repaint, the GPU compositor, and the event loop.
+
+### Languages
+The languages we actually write — with the mental models that explain their behavior.
+
+- **[HTML Essentials & Cheat Sheet](concepts/html-essentials-and-cheat-sheet.md)** — semantic landmarks, headings, forms, tables, media (`srcset`/`sizes`/`loading`/`fetchpriority`), `<dialog>` and `popover`, `<head>` essentials, modern attributes (`inert`, `enterkeyhint`, `inputmode`), and a div-soup → semantic replacement table.
+- **[CSS Mental Models & Cheat Sheet](concepts/css-mental-models-and-cheat-sheet.md)** — selectors, the box model, Flex and Grid, position, modern features (`:has`, container queries, `@scope`, anchor positioning, `oklch`, scroll-driven animations), plus the four mental models: cascade, specificity, formatting contexts, and stacking contexts.
+- **[JavaScript: Mental Models & Cheat Sheet](concepts/javascript-mental-models-and-cheat-sheet.md)** — the syntax that shows up daily, plus the mental models underneath: execution context, hoisting, closures, `this`, prototype chain, coercion, the event loop, microtasks, modules, GC — and a focused DOM cheat sheet.
+- **[TypeScript Deep Dive](concepts/typescript-deep-dive.md)** — strict-mode `tsconfig`, generics, conditional types, `infer`, mapped & template literal types, branded types, discriminated unions, React patterns, runtime validation, and TS performance tuning.
 
 ### Architecture
 Shaping the system before the first line of code.
@@ -40,6 +50,11 @@ Properties that don't fit on any one page but show up everywhere.
 - **[Web Optimization Techniques](concepts/web-optimization-techniques.md)** — code splitting, dynamic imports, caching at every layer, virtualization, infinite scrolling, React rerender prevention, and the broader performance playbook.
 - **[Web Application Security](concepts/web-application-security.md)** — OWASP Top 10, threat modeling (STRIDE), authentication, authorization, XSS/CSRF/SQLi, security headers, CSP, supply chain, and incident response.
 - **[CSS & Design Systems](concepts/css-and-design-systems.md)** — CSS architecture, modern features (`:has`, container queries, `@layer`, view transitions, `oklch`), design tokens, theming, design-system patterns, and critical CSS.
+
+### Frameworks
+Deep dives on the libraries we actually ship.
+
+- **[React Internals & Cheat Sheet (React 19)](concepts/react-internals-and-cheat-sheet.md)** — every hook and React 19 API as a quick reference, plus a tour of fibers, reconciliation, lanes, automatic batching, the commit phase, and the React Compiler.
 
 ### Process and operations
 Once the code is written, the work has barely started.

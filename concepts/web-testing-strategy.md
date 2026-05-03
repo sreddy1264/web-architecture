@@ -385,7 +385,7 @@ Catch CSS regressions, layout shifts, font issues, theme drift. The kind of bugs
 ---
 
 ### 8. Accessibility Tests
-Automated checks for WCAG conformance. (See `web-accessibility.md` for the full a11y picture.)
+Automated checks for WCAG conformance. (See [Web Accessibility](web-accessibility.md) for the full a11y picture.)
 
 #### Tools
 - **axe-core** — the engine behind every major a11y tool
@@ -428,7 +428,7 @@ Lab and field perf checks gated in CI.
 ---
 
 ### 10. Security Tests
-(See `web-application-security.md` for the threat picture.)
+(See [Web Application Security](web-application-security.md) for the threat picture.)
 
 - **SAST** (Static Application Security Testing) — Semgrep, CodeQL, Snyk Code, SonarQube
 - **DAST** (Dynamic) — OWASP ZAP, Burp Suite, Nuclei

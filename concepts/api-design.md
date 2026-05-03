@@ -625,7 +625,7 @@ Stripe has an excellent [idempotency design doc](https://stripe.com/docs/api/ide
 
 ## Caching
 
-(See `web-optimization-techniques.md` for the broader caching picture.)
+(See [Web Optimization Techniques](web-optimization-techniques.md) for the broader caching picture.)
 
 ### HTTP cache headers
 ```
@@ -723,7 +723,7 @@ Different limits for:
 
 ## Authentication & Authorization
 
-(See `web-application-security.md` for the full security picture.)
+(See [Web Application Security](web-application-security.md) for the full security picture.)
 
 ### Authentication mechanisms
 

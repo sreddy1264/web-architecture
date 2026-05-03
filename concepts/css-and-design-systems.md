@@ -884,7 +884,7 @@ Some users replace colors with system-defined high-contrast palettes. Don't figh
 }
 ```
 
-### See `web-accessibility.md` for the full a11y picture.
+### See [Web Accessibility](web-accessibility.md) for the full a11y picture.
 
 ---
 
