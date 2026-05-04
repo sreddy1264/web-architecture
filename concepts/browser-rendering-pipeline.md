@@ -1,5 +1,7 @@
 # From URL to Pixels: How Browsers Render Web Pages
 
+*Last reviewed: 2026-05*
+
 > A practical walkthrough of everything that happens between pressing Enter and seeing pixels — the network stack, the rendering pipeline, the critical rendering path, reflow & repaint, and the modern composited compositor.
 
 ---
@@ -794,6 +796,12 @@ The CRP existed before React, Vue, Angular. Frameworks layer on top; they don't 
 - **Steve Souders — *High Performance Web Sites*** — the original "rules" book; dated but foundational
 - **Tom Barker — *High Performance Images***
 - **Smashing Magazine — *Front-end Performance*** (annual checklist by Vitaly Friedman) — the most current practical reference
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **Critical Rendering Path**, **DOM**, **CSSOM**, **Render Tree**, **Layout (Reflow)**, **Paint**, **Composite**, **Event Loop**, **GPU Compositor**, **bfcache**, **DNS**, **TCP**, **TLS**, **HTTP/2**, **HTTP/3 / QUIC**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

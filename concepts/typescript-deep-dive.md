@@ -1,5 +1,7 @@
 # TypeScript Deep Dive
 
+*Last reviewed: 2026-05*
+
 > A practical guide to using TypeScript well — the type system, configuration, advanced patterns, React interop, performance, and the mindset that turns it from a tax into a tool.
 
 ---
@@ -1193,9 +1195,6 @@ But if you're doing this everywhere, your *types* are wrong — model the union 
 - **[Stefan Baumgartner — *TypeScript in 50 Lessons*](https://typescript-book.fettblog.eu/)** — short, free
 - **[Anders Hejlsberg's talks](https://www.youtube.com/results?search_query=anders+hejlsberg+typescript)** — the language designer; deep insights into trade-offs
 
-### People to follow
-- Matt Pocock (Total TypeScript), Mateusz Burzyński (Stately, hard-mode TS), Daniel Rosenwasser (TS team), Andrew Branch (TS team), Ryan Cavanaugh (TS team), Anders Hejlsberg, Marius Schulz, Stefan Baumgartner, Gabriel Vergnaud (`ts-pattern`)
-
 ### Newsletters
 - **TypeScript Weekly** — community-curated
 - **Bytes by ui.dev** — broader, but TS-heavy
@@ -1211,6 +1210,12 @@ But if you're doing this everywhere, your *types* are wrong — model the union 
 - See [API Design](api-design.md) for end-to-end-typed RPC patterns (tRPC, OpenAPI codegen).
 - See [Web Application Security](web-application-security.md) for runtime validation as a security boundary.
 - See [Glossary](glossary.md) for term definitions.
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **`any`**, **`unknown`**, **`never`**, **`as const`**, **`satisfies`**, **Branded Type**, **Conditional Type**, **Discriminated Union**, **Generic**, **`infer`**, **Mapped Type**, **Template Literal Type**, **Strict Mode**, **Structural Typing**, **Type Guard / Type Predicate**, **Type Narrowing**, **Utility Types**, **`noUncheckedIndexedAccess`**, **`verbatimModuleSyntax`**, **Zod / Valibot / ArkType**, **Module Augmentation**, **Declaration Merging**, **Distributive Conditional Type**, **Exhaustive Check**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

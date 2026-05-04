@@ -1,5 +1,7 @@
 # Web Application Optimization Techniques
 
+*Last reviewed: 2026-05*
+
 > A practical playbook of techniques to make web apps fast — bundle, runtime, network, rendering, and data-layer optimizations, with React-specific patterns.
 
 ---
@@ -1397,8 +1399,12 @@ Shipping `core-js` to Chrome 120 for IE11 compatibility you don't actually need.
 - **`web-vitals`** library — RUM
 - **`size-limit`**, **`bundlewatch`** — bundle budgets in CI
 
-### People to follow
-- Addy Osmani, Jeremy Wagner, Barry Pollard, Annie Sullivan, Harry Roberts (CSS Wizardry), Dan Abramov, Ryan Florence, Tanner Linsley (TanStack), Jake Archibald, Surma
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **Code Splitting**, **Lazy Loading**, **Virtualization**, **Caching (HTTP, CDN, Browser, Service Worker)**, **Resource Hints**, **Tree Shaking**, **Bundle Analysis**, **Performance Budget**, **Debounce / Throttle**, **Memoization**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

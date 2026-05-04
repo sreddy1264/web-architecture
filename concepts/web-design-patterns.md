@@ -1,5 +1,7 @@
 # Web Design Patterns
 
+*Last reviewed: 2026-05*
+
 > A practical catalog of patterns used to build modern web applications — what they are, when to reach for them, and what they cost.
 
 ---
@@ -736,6 +738,12 @@ Real apps stack many patterns. A few examples:
 ### Resilience
 - **Michael Nygard — *Release It!*** — circuit breakers, bulkheads, the foundational text
 - **Google SRE Book / Workbook** — free online; resilience at scale
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **Compound Components**, **Render Props**, **Higher-Order Component (HOC)**, **Provider Pattern**, **Observer Pattern**, **Singleton**, **MVC / MVVM**, **State Machine**, **Repository Pattern**, **Strategy Pattern**, **Adapter / Facade**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

@@ -1,5 +1,7 @@
 # Web Application Security
 
+*Last reviewed: 2026-05*
+
 > A practical guide to defending web applications — threat models, common attacks, defenses, and the security mindset.
 
 ---
@@ -962,6 +964,12 @@ PCI-DSS / SOC 2 / ISO 27001 are *floors*, not ceilings. You can be compliant and
 - **PortSwigger Research** — annual "Top 10 web hacking techniques"
 - **Krebs on Security** — investigative breach journalism
 - **Schneier on Security** — analysis & policy
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **OWASP Top 10**, **STRIDE**, **XSS**, **CSRF**, **SQL Injection**, **CSP** *(Content Security Policy)*, **HSTS**, **JWT**, **OAuth 2.0**, **OIDC**, **Passkeys**, **Threat Model**, **SBOM**, **Defense in Depth**, **Least Privilege**, **Zero Trust**, **SSRF**, **Clickjacking**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

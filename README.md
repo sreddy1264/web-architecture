@@ -14,7 +14,24 @@ Every guide follows the same structure:
 - Curated further reading
 - A short closing reflection
 
-A cross-doc **[Glossary](concepts/glossary.md)** defines the ~280 acronyms and terms used across the guides, with back-links to where each is discussed in depth.
+A cross-doc **[Glossary](concepts/glossary.md)** defines the ~440 acronyms and terms used across the guides, with back-links to where each is discussed in depth.
+
+---
+
+## Find by goal
+
+If you're not sure where to start, pick the goal that matches what's actually on your plate.
+
+- **I want to make my site faster** → [Core Web Vitals](concepts/core-web-vitals.md), [Web Optimization Techniques](concepts/web-optimization-techniques.md), [Browser Rendering Pipeline](concepts/browser-rendering-pipeline.md), [Web Rendering Strategies](concepts/web-rendering-strategies.md), [CSS Mental Models](concepts/css-mental-models-and-cheat-sheet.md) (paint vs layout vs composite).
+- **I want to make my site accessible** → [Web Accessibility](concepts/web-accessibility.md), [HTML Essentials](concepts/html-essentials-and-cheat-sheet.md), [CSS Mental Models](concepts/css-mental-models-and-cheat-sheet.md) (`:focus-visible`, `prefers-reduced-motion`).
+- **I want to ship safely and often** → [CI/CD](concepts/ci-cd.md), [Web Testing Strategy](concepts/web-testing-strategy.md), [Observability](concepts/observability.md).
+- **I want to harden the app** → [Web Application Security](concepts/web-application-security.md), [API Design](concepts/api-design.md) (auth, idempotency), [HTML Essentials](concepts/html-essentials-and-cheat-sheet.md) (`sandbox`, CSP-friendly markup).
+- **I want to architect a new system** → [Web Architectures](concepts/web-architectures.md), [Web Rendering Strategies](concepts/web-rendering-strategies.md), [Web Design Patterns](concepts/web-design-patterns.md), [API Design](concepts/api-design.md).
+- **I want to set up a design system** → [CSS & Design Systems](concepts/css-and-design-systems.md), [CSS Mental Models](concepts/css-mental-models-and-cheat-sheet.md), [Web Accessibility](concepts/web-accessibility.md).
+- **I want to add AI features** → [AI Integration & SDLC](concepts/ai-integration-and-sdlc.md), [API Design](concepts/api-design.md) (streaming, tool use), [Web Application Security](concepts/web-application-security.md) (prompt injection, supply chain).
+- **I want to debug a frontend bug** → [Browser Rendering Pipeline](concepts/browser-rendering-pipeline.md), [JavaScript: Mental Models](concepts/javascript-mental-models-and-cheat-sheet.md), [React Internals](concepts/react-internals-and-cheat-sheet.md), [CSS Mental Models](concepts/css-mental-models-and-cheat-sheet.md) (cascade, stacking, formatting contexts).
+- **I want to learn the language better** → [HTML Essentials](concepts/html-essentials-and-cheat-sheet.md), [CSS Mental Models](concepts/css-mental-models-and-cheat-sheet.md), [JavaScript: Mental Models](concepts/javascript-mental-models-and-cheat-sheet.md), [TypeScript Deep Dive](concepts/typescript-deep-dive.md), [React Internals](concepts/react-internals-and-cheat-sheet.md).
+- **I want to rank in search and AI engines** → [SEO](concepts/seo.md), [Web Rendering Strategies](concepts/web-rendering-strategies.md) (JS-rendering pitfalls), [HTML Essentials](concepts/html-essentials-and-cheat-sheet.md) (semantic markup, structured data).
 
 ---
 

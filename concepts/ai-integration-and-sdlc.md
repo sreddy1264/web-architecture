@@ -1,5 +1,7 @@
 # AI Integration & AI SDLC
 
+*Last reviewed: 2026-05*
+
 > A practical guide to integrating LLMs into web applications and operating an AI software development lifecycle — from problem framing to production monitoring.
 
 ---
@@ -1479,14 +1481,17 @@ Provider updates the model. Outputs change. You don't notice. Continuous evals i
 - **Anthropic / OpenAI / DeepMind safety blog posts** — alignment thinking
 - **AI Snake Oil** (Narayanan & Kapoor) — what AI is and isn't
 
-### People to follow
-- Simon Willison, Hamel Husain, Eugene Yan, Chip Huyen, Andrej Karpathy, Lilian Weng, Jerry Liu (LlamaIndex), Harrison Chase (LangChain), Jared Palmer (Vercel AI), Logan Kilpatrick (Google), Alex Albert (Anthropic), Shawn @swyx Wang
-
 ### Communities
 - **r/LocalLLaMA** — open-weights community
 - **AI Engineer Summit / World Fair** — applied AI conference
 - **Latent Space Pod** — AI engineering podcast
 - **Hugging Face** — models, datasets, spaces
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **Agent**, **Chunking**, **Embedding**, **Eval**, **Hallucination**, **Prompt Injection**, **RAG**, **Structured Output**, **Tool Use**, **Vector Database**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

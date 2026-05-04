@@ -1,5 +1,7 @@
 # Web Rendering Strategies & Application Architectures
 
+*Last reviewed: 2026-05*
+
 > A practical guide to choosing how (and where) your web pages get rendered.
 
 ---
@@ -643,6 +645,12 @@ A 4-second SSR render produces a 4-second TTFB and a worse LCP than CSR. SSR spe
 - **[View Transitions API](https://developer.chrome.com/docs/web-platform/view-transitions)** — for MPA-as-SPA UX
 - **[Speculation Rules API](https://developer.chrome.com/docs/web-platform/prerender-pages)**
 - Books: *Web Application Architecture* (Shklar & Rosen), *Building Micro-Frontends* (Luca Mezzalira)
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **CSR**, **SSR**, **SSG**, **ISR**, **PPR** *(Partial Prerendering)*, **Streaming SSR**, **Islands Architecture**, **Resumability**, **Hydration**, **Edge Rendering**, **Per-Route Rendering**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

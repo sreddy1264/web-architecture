@@ -1,5 +1,7 @@
 # CI/CD — Continuous Integration & Continuous Delivery
 
+*Last reviewed: 2026-05*
+
 > A practical guide to designing pipelines that ship code safely, frequently, and quickly — from PR to production.
 
 ---
@@ -1218,8 +1220,11 @@ A 200-page change-management process that gets bypassed in real incidents. Real 
 - **Charity Majors' blog (`charity.wtf`)** — observability + deploy philosophy
 - **Continuous Delivery YouTube channel** — Dave Farley
 
-### People to follow
-- Dave Farley, Jez Humble, Charity Majors, Liz Fong-Jones, Adrian Cockcroft, Kelsey Hightower, Bridget Kromhout, Patrick Debois (DevOps coined), Nicole Forsgren
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **Blue/Green Deployment**, **Canary**, **Rolling Deployment**, **Feature Flag**, **GitOps**, **IaC**, **DORA Metrics**, **SBOM**, **MTTR**, **Trunk-Based Development**, **Quality Gate**, **Pipeline-as-Code**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

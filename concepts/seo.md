@@ -1,5 +1,7 @@
 # Search Engine Optimization (SEO)
 
+*Last reviewed: 2026-05*
+
 > A practical engineering guide to building search-friendly web applications.
 
 ---
@@ -577,6 +579,12 @@ The SERP is evolving. Google's **AI Overviews**, **ChatGPT search**, **Perplexit
 - **[Search Engine Journal](https://www.searchenginejournal.com/)** / **[Search Engine Land](https://searchengineland.com/)**
 - **[Aleyda Solis — SEO Newsletters](https://www.aleydasolis.com/)**
 - Books: *The Art of SEO* (Enge et al.), *SEO for Growth*, *Product-Led SEO* (Eli Schwartz)
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **Canonical**, **Structured Data**, **`robots.txt`**, **`sitemap.xml`**, **Hreflang**, **Crawl Budget**, **E-E-A-T**, **Core Web Vitals**, **AEO** *(Answer Engine Optimization)*, **GEO** *(Generative Engine Optimization)*. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

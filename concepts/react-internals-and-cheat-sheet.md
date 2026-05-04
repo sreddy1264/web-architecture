@@ -1,5 +1,7 @@
 # React Internals & Cheat Sheet (React 19)
 
+*Last reviewed: 2026-05*
+
 > A working architect's reference — every API I reach for in day-to-day work, plus enough internals to reason about *why* React behaves the way it does. Up to date with React 19.
 
 If you write React long enough, you stop thinking in components and start thinking in renders, commits, and lanes. This guide is the cheat sheet I keep close — hooks, patterns, the React 19 surface — followed by a short internals tour so the cheat sheet isn't a black box.
@@ -574,6 +576,12 @@ RSCs render on the server (or at build time), serialize a tree-shaped wire forma
 - [Mark Erikson — A (Mostly) Complete Guide to React Rendering Behavior](https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/).
 - [The Rules of React](https://react.dev/reference/rules) — purity, idempotence, ordering. Worth re-reading every six months.
 - [React internals deep dive — Bytedance team's articles](https://github.com/bvaughn/react-resources).
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **Fiber**, **Reconciliation**, **Lanes**, **Scheduler**, **Concurrent Rendering**, **Render Phase**, **Commit Phase**, **Double Buffering**, **Hooks Linked List**, **Automatic Batching**, **RSC**, **Server Action**, **Suspense**, **Transition**, **Hydration**, **`use`**, **`useActionState`**, **`useOptimistic`**, **`useFormStatus`**, **`useTransition`**, **`useDeferredValue`**, **`useSyncExternalStore`**, **React Compiler**, **Strict Mode**, **`memo`**, **`forwardRef`**, **Key**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

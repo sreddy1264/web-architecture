@@ -1,5 +1,7 @@
 # Web Accessibility (a11y)
 
+*Last reviewed: 2026-05*
+
 > A practical guide to building inclusive, accessible web applications.
 
 ---
@@ -485,6 +487,12 @@ Sustainable accessibility is **organizational**, not just technical:
 - **[Inclusive Components](https://inclusive-components.design/)** by Heydon Pickering
 - **[Deque University](https://dequeuniversity.com/)** — paid courses, free reference
 - **WebAIM Screen Reader User Survey** — published every 1–2 years; invaluable real-world data on AT usage
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **WCAG**, **ARIA**, **Landmarks**, **`sr-only`**, **Focus Trap**, **Skip Link**, **VPAT**, **Live Region**, **Roving tabindex**, **Alt Text**, **Reduced Motion**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

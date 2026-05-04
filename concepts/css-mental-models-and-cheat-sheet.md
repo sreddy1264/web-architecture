@@ -1,5 +1,7 @@
 # CSS Mental Models & Cheat Sheet
 
+*Last reviewed: 2026-05*
+
 > A working architect's reference for the CSS *language* — selectors, the box model, layout primitives, modern features — and the mental models (cascade, specificity, formatting contexts, stacking contexts) that explain why it behaves the way it does.
 
 This guide is the language-level companion to [CSS & Design Systems](css-and-design-systems.md), which covers architecture, tokens, theming, `@layer` strategy, and design-system patterns. Read this one to write CSS; read that one to organize it.
@@ -750,6 +752,12 @@ For deeper detail on what each phase costs and how the browser decides, see [Bro
 - [Ahmad Shadeed](https://ishadeed.com/) — the gold standard for visual CSS explainers.
 - [Una Kravets / Adam Argyle / Bramus on web.dev](https://web.dev/) — modern CSS in production.
 - This repo: [CSS & Design Systems](css-and-design-systems.md) for architecture, tokens, theming, `@layer` strategy, and design-system patterns; [Browser Rendering Pipeline](browser-rendering-pipeline.md) for how paint/layout/composite phases work.
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **Cascade**, **Specificity**, **Stacking Context**, **Containing Block**, **Block Formatting Context (BFC)**, **Container Query**, **`:has()`**, **`:is()` / `:where()`**, **Logical Properties**, **`oklch`**, **Subgrid**, **`box-sizing`**, **Margin Collapsing**, **Inheritance**, **`text-wrap: balance` / `pretty`**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

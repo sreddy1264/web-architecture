@@ -1,5 +1,7 @@
 # Web Architectures
 
+*Last reviewed: 2026-05*
+
 > A practical guide to system-level architectural styles for web applications — what they are, what they cost, and how to choose.
 
 ---
@@ -817,6 +819,12 @@ Architectures evolve. The right architecture for 2024-you might be wrong for 202
 - Mary Poppendieck — "The Tyranny of the Plan"
 - Adrian Cockcroft (ex-Netflix) — anything on microservices
 - Charity Majors (Honeycomb) — observability, on-call, distributed systems sanity
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **Monolith**, **Modular Monolith**, **Microservices**, **Serverless**, **Event-Driven Architecture**, **Hexagonal Architecture**, **CQRS**, **Saga**, **BFF** *(Backend-for-Frontend)*, **Domain-Driven Design**, **Bounded Context**, **Conway's Law**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

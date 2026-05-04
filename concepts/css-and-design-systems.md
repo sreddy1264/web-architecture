@@ -1,5 +1,7 @@
 # CSS Architecture & Design Systems
 
+*Last reviewed: 2026-05*
+
 > A practical guide to writing, organizing, and shipping CSS at scale — methodology, modern features, design tokens, design systems, performance, and best practices.
 
 ---
@@ -1136,9 +1138,6 @@ Designs aren't specs — they're guides. CSS that breaks when copy is 5% longer 
 - **[Awesome Design Systems](https://github.com/alexpate/awesome-design-systems)**
 - **GitHub Primer**, **Atlassian Design System**, **Adobe Spectrum**, **Material Design**, **Carbon (IBM)**, **Polaris (Shopify)**, **shadcn/ui**
 
-### People to follow
-- Una Kravets (Google CSS), Adam Argyle (Google CSS), Lea Verou (W3C, color), Heydon Pickering (a11y), Andy Bell (modern CSS), Ahmad Shadeed, Sara Soueidan, Stephanie Eckles, Bramus Van Damme, Miriam Suzanne (cascade layers, container queries author), Brad Frost (atomic design)
-
 ### Standards / specs
 - **CSS Working Group** — W3C
 - **caniuse.com** — feature support
@@ -1150,6 +1149,12 @@ Designs aren't specs — they're guides. CSS that breaks when copy is 5% longer 
 - **Tailwind CSS**, **CVA**, **tailwind-variants**
 - **Stylelint**, **Lightning CSS**
 - **PostCSS**
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **`@layer`**, **BEM**, **ITCSS**, **OOCSS**, **SMACSS**, **Critical CSS**, **Design Token**, **shadcn/ui**, **Tailwind CSS**, **vanilla-extract / Panda CSS / StyleX**, **CSS-in-JS**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

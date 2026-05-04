@@ -1,5 +1,7 @@
 # Core Web Vitals (CWV)
 
+*Last reviewed: 2026-05*
+
 > A practical engineering guide to measuring and optimizing real-user performance.
 
 ---
@@ -609,7 +611,12 @@ Per-route budgets that block CI on regression:
 - **[CrUX Dashboard](https://g.co/chromeuxdash)** — public field data
 - **[Smashing Magazine — A Guide to Core Web Vitals](https://www.smashingmagazine.com/2021/04/complete-guide-core-web-vitals/)**
 - **Books**: *High Performance Browser Networking* (Ilya Grigorik), *Web Performance in Action* (Jeremy Wagner)
-- **People to follow**: Addy Osmani, Jeremy Wagner, Barry Pollard, Annie Sullivan, Harry Roberts (CSS Wizardry)
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **LCP**, **INP**, **CLS**, **FCP**, **TTFB**, **CrUX**, **Field Data**, **Lab Data**, **Long Animation Frame**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

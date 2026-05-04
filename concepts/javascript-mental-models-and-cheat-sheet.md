@@ -1,5 +1,7 @@
 # JavaScript: Mental Models & Cheat Sheet
 
+*Last reviewed: 2026-05*
+
 > A working architect's reference — the syntax I reach for daily, the mental models that explain why JS behaves the way it does, and the DOM/browser APIs that actually show up in production.
 
 JavaScript is the language we ship to every device on Earth. Most bugs aren't in syntax — they're in mental models: a misunderstood `this`, a forgotten microtask, a closure capturing the wrong variable, a `==` quietly coercing. This guide is the cheat sheet plus the *why* underneath, so the surface stops surprising you.
@@ -10,7 +12,7 @@ JavaScript is the language we ship to every device on Earth. Most bugs aren't in
 
 JavaScript looks like every other C-family language until it doesn't. Hoisting moves declarations. `this` is decided at call time, not definition. Equality coerces. Iteration order depends on key type. Promises resolve asynchronously even when they're already resolved. Memory leaks hide behind closures.
 
-In practice: every JS senior I know has the same library of mental models — execution context, prototype chain, event loop, closures, coercion. The syntax is the easy part; those models are what separate "I can write JS" from "I can debug JS."
+In practice: every JS-fluent engineer I know reaches for the same library of mental models — execution context, prototype chain, event loop, closures, coercion. The syntax is the easy part; those models are what separate "I can write JS" from "I can debug JS."
 
 ---
 
@@ -798,6 +800,12 @@ sessionStorage.getItem("k");
 - [V8 blog](https://v8.dev/blog) — the engine's perspective on what fast JS looks like.
 - [Web.dev — Modern JavaScript](https://web.dev/articles/modern-javascript) — best-practices for shipping.
 - [HTML Living Standard — DOM](https://dom.spec.whatwg.org/) — the spec, when MDN isn't enough.
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **Closure**, **Event Loop**, **Execution Context**, **Hoisting**, **Microtask**, **Macrotask**, **Promise**, **Prototype Chain**, **Scope Chain**, **`this` Binding**, **TDZ**, **Type Coercion**, **`async` / `await`**, **ESM**, **Generator**, **`Map` / `Set` / `WeakMap` / `WeakSet`**, **`structuredClone`**, **AbortController / AbortSignal**, **IntersectionObserver**, **MutationObserver**, **ResizeObserver**, **Layout Thrashing**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

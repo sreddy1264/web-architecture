@@ -1,5 +1,7 @@
 # Web Application Testing Strategy
 
+*Last reviewed: 2026-05*
+
 > A practical guide to testing web applications — what to test, how much, with which tools, and how to keep the suite fast, reliable, and trustworthy.
 
 ---
@@ -1123,8 +1125,11 @@ Untyped, undocumented, copy-pasted, never refactored. Test code is production co
 - **Google Testing Blog** — historical archives still gold
 - **Continuous Delivery** — Humble & Farley — how testing fits into the deploy pipeline
 
-### People to follow
-- Kent C. Dodds, Yoni Goldberg, Michael Bolton, James Bach (testing schools), Maaret Pyhäjärvi, Lisa Crispin, Janet Gregory, Dan North (BDD originator)
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **Test Pyramid**, **Test Trophy**, **Test Honeycomb**, **Unit Test**, **Integration Test**, **Component Test**, **End-to-End Test**, **Contract Test**, **Visual Regression Test**, **Mutation Testing**, **Property-Based Testing**, **Snapshot Test**, **Test Doubles** (mock / stub / fake / spy), **Flake**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

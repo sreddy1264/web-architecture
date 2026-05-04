@@ -1,5 +1,7 @@
 # HTML Essentials & Cheat Sheet
 
+*Last reviewed: 2026-05*
+
 > A working architect's reference — the elements and attributes I reach for daily, plus the mental models that explain *why* the right tag matters more than the right class name.
 
 HTML is the substrate. It's what screen readers parse, what search engines index, what the browser uses to decide tab order, what the parser turns into a DOM tree before a single byte of CSS or JS runs. Get HTML right and accessibility, SEO, and performance start working in your favor by default. Get it wrong and no amount of ARIA can fully repair it.
@@ -596,6 +598,12 @@ The head is read by browsers, search crawlers, social-share bots, OS install han
 - [Adam Argyle / Una Kravets / Rachel Andrew posts on web.dev](https://web.dev/) — modern HTML/CSS in practice.
 - [The A11y Project](https://www.a11yproject.com/) — patterns for the cases the platform doesn't fully cover.
 - This repo: [Web Accessibility](web-accessibility.md), [SEO](seo.md), [Core Web Vitals](core-web-vitals.md), [Web Optimization Techniques](web-optimization-techniques.md), [CSS & Design Systems](css-and-design-systems.md).
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **`<article>`**, **`<aside>`**, **`autocomplete` tokens**, **Constraint Validation API**, **`<dialog>`**, **`<details>` / `<summary>`**, **Landmarks**, **`<main>`**, **`<picture>`**, **`popover`**, **Resource Hints**, **`<search>`**, **`srcset` / `sizes`**, **`<time>`**, **Viewport Meta**, **`inert`**, **`enterkeyhint`**, **`inputmode`**, **`tabindex`**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

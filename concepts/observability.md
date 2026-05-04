@@ -1,5 +1,7 @@
 # Observability
 
+*Last reviewed: 2026-05*
+
 > A practical guide to making web systems debuggable in production — logs, metrics, traces, real user monitoring, SLOs, alerting, and incident response.
 
 ---
@@ -937,13 +939,16 @@ Hardcoded calls to `dd-trace.span()` everywhere. Switching backends means rewrit
 - **[Increment magazine — On-Call issue](https://increment.com/on-call/)** — incident response philosophy
 - **[How Complex Systems Fail (Richard Cook)](https://how.complexsystems.fail/)** — 18-point essay; required reading
 
-### People to follow
-- Charity Majors, Liz Fong-Jones, Cindy Sridharan, Brendan Gregg, John Allspaw, Lorin Hochstein (resilience engineering), Niall Murphy (SRE), Ben Sigelman (Lightstep)
-
 ### Standards & specs
 - **OpenTelemetry** — `opentelemetry.io`
 - **W3C Trace Context** — propagation standard
 - **Prometheus exposition format** — metrics standard
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **Logs**, **Metrics**, **Traces**, **Span**, **RUM**, **OpenTelemetry**, **SLI**, **SLO**, **SLA**, **Error Budget**, **Cardinality**, **MTTR**, **Postmortem**, **Alert Fatigue**, **Distributed Tracing**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 

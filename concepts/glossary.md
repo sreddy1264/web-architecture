@@ -1,5 +1,7 @@
 # Glossary
 
+*Last reviewed: 2026-05*
+
 > Quick definitions for terms used throughout the repo, with a back-link to the guide where each one is discussed in depth.
 
 Use the section index below to jump, or `Ctrl-F` to search.
@@ -18,8 +20,8 @@ Use the section index below to jump, or `Ctrl-F` to search.
 - [CI/CD & Delivery](#cicd--delivery)
 - [SEO](#seo)
 - [Accessibility](#accessibility)
-- [CSS & Design Systems](#css--design-systems)
-- [CSS (language)](#css-language)
+- [Design Systems](#design-systems)
+- [CSS](#css)
 - [HTML](#html)
 - [JavaScript](#javascript)
 - [TypeScript](#typescript)
@@ -331,7 +333,7 @@ Use the section index below to jump, or `Ctrl-F` to search.
 
 ---
 
-## CSS & Design Systems
+## Design Systems
 
 - **`@layer`** — CSS cascade layers. Explicit ordering replaces specificity wars and `!important`. → [CSS & Design Systems](css-and-design-systems.md).
 - **`:has()`** — parent selector. Style an element based on its descendants (`.card:has(img) { padding: 0 }`). → [CSS & Design Systems](css-and-design-systems.md).
@@ -357,7 +359,7 @@ Use the section index below to jump, or `Ctrl-F` to search.
 
 ---
 
-## CSS (language)
+## CSS
 
 - **`@scope`** — limit a stylesheet block to a subtree, with optional lower bound. Cleaner than nested compound selectors. → [CSS Mental Models & Cheat Sheet](css-mental-models-and-cheat-sheet.md).
 - **`@starting-style`** — declare entry-animation start values for transitions on inserted/displayed elements. → [CSS Mental Models & Cheat Sheet](css-mental-models-and-cheat-sheet.md).

@@ -1,5 +1,7 @@
 # API Design
 
+*Last reviewed: 2026-05*
+
 > A practical guide to designing APIs that are durable, evolvable, performant, secure, and pleasant to use.
 
 ---
@@ -1481,13 +1483,16 @@ Client sends `{ "foo": "bar", "baz": 1 }`; server only knows about `foo`; ignore
 - **Susan Fowler — *Production-Ready Microservices***
 - **Gregor Hohpe — *Enterprise Integration Patterns*** — async messaging foundation
 
-### People to follow
-- Brandur Leach (Stripe), Marc-André Giroux (GraphQL), Phil Sturgeon (APIs You Won't Hate), Kin Lane (API Evangelist), Arnaud Lauret (API Handyman), Mark Nottingham (HTTP standards)
-
 ### Watch / listen
 - "How to Design Great APIs" — many talks at API Days conferences
 - Stripe Engineering Blog — model API design articles
 - Architecture decision records from public companies (Twilio, GitHub, Slack)
+
+---
+
+## Key terms
+
+This guide is the canonical home for these glossary entries: **REST**, **GraphQL**, **gRPC**, **tRPC**, **Idempotency**, **OpenAPI**, **Webhook**, **JSON:API**, **GraphQL Federation**, **Long Polling**, **Server-Sent Events**, **HATEOAS**. See the [glossary](glossary.md) for definitions and the rest of the index.
 
 ---
 
